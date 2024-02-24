@@ -420,7 +420,7 @@ section {
   height: 50%;
   margin-top:40px;
   padding: 5px;
-  margin-left: 30px;
+  margin-left: 130px;
   border: 2px;
 }
 
@@ -584,7 +584,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Certification Details
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
@@ -839,7 +839,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background: #f9f9f9;
+  background: rgb(2, 5, 22) ;
 }
 
 .breadcrumbs h2 {
@@ -863,7 +863,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #0e2442;
+  color: #ffffff;
   content: "/";
 }
 
@@ -885,7 +885,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  padding: 15px;
+  padding: 10px;
   color: #f4f6fd;
   font-size: 14px;
   position: fixed;
@@ -914,6 +914,11 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+#footer .credits img{
+  width: 110px;
+  height: 50px;
+  }
 
 
 /*--------------------------------------------------------------
